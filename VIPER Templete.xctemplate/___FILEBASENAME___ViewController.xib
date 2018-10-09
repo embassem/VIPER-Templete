@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,13 +25,13 @@
                 </view>
             </subviews>
             <constraints>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" priority="750" constant="20" id="0zY-0Z-LOW"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" priority="950" constant="20" id="0zY-0Z-LOW"/>
                 <constraint firstItem="OHd-GK-zEr" firstAttribute="bottom" secondItem="h4t-Pb-wpG" secondAttribute="bottom" priority="500" id="475-gq-xVs"/>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" priority="750" id="80K-V5-ml5"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="trailing" priority="750" id="Hw2-th-OAW"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" priority="950" id="80K-V5-ml5"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="trailing" priority="950" id="Hw2-th-OAW"/>
                 <constraint firstItem="OHd-GK-zEr" firstAttribute="top" secondItem="h4t-Pb-wpG" secondAttribute="top" priority="500" id="Xxq-Tq-jre"/>
                 <constraint firstItem="OHd-GK-zEr" firstAttribute="trailing" secondItem="h4t-Pb-wpG" secondAttribute="trailing" priority="500" id="YTq-pN-04f"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="bottom" priority="750" id="sGg-dI-42O"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="bottom" priority="950" id="sGg-dI-42O"/>
                 <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" secondItem="h4t-Pb-wpG" secondAttribute="leading" priority="500" id="xDL-mF-guE"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="h4t-Pb-wpG"/>

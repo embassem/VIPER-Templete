@@ -19,7 +19,7 @@ make the durectory to copy to it
 
 2- in user Library Folder  "avaliable for this user only"
 ```
-/Library/Developer/Xcode/Templates/Project Templates/iOS/Application
+~/Library/Developer/Xcode/Templates/Project Templates/iOS/Application
 ```
 
 3- in xcode app 
