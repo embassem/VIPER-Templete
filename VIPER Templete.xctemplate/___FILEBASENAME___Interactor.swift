@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol {
+class ___VARIABLE_productName: identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol {
 
     weak var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?
 }

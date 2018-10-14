@@ -8,41 +8,37 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___ViewController: UIViewController{
+class ___VARIABLE_productName: identifier___ViewController: UIViewController {
 
     // MARK: - Public Variables
-	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
 
-    
-     // MARK: - Private Variables
-    
-    
+    // MARK: - Private Variables
+
     // MARK: - Computed Variables
-    
+
     // MARK: - IBOutlets
-    
-    
 
 }
 
 // MARK: - View Controller lifecycle
-extension ___VARIABLE_productName:identifier___ViewController {
+extension ___VARIABLE_productName: identifier___ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 
 // MARK: - IBActions
-extension ___VARIABLE_productName:identifier___ViewController {
-    
+extension ___VARIABLE_productName: identifier___ViewController {
+
 }
 
 // MARK: - Selectors
-extension ___VARIABLE_productName:identifier___ViewController {
-    
+extension ___VARIABLE_productName: identifier___ViewController {
+
 }
 
-// MARK: -  Protocal
-extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___ViewProtocol {
-    
+// MARK: - Protocal
+extension ___VARIABLE_productName: identifier___ViewController: ___VARIABLE_productName:identifier___ViewProtocol {
+
 }
