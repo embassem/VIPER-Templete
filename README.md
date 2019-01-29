@@ -14,7 +14,7 @@ avaliable options
 /Library/Developer/Xcode/Templates/Project Templates/iOS/Application  
 make the durectory to copy to it 
 
- sudo mkdir -p /Library/Developer/Xcode/Templates/Project Templates/iOS/Application
+ sudo mkdir -p /Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application
  ```
 
 2- in user Library Folder  "avaliable for this user only"
@@ -31,5 +31,6 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 
 cp -a /source/. /dest/
 
+cp -a /. /Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application/
 
  Now you can find your template in Xcode.

@@ -8,40 +8,41 @@
 
 import Foundation
 
-// MARK: - ViewController -> Presenter
 
-protocol ___VARIABLE_productName: identifier___PresenterProtocol: class {
+//MARK: - ViewController -> Presenter
+
+protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
 
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? { get set }
-
+    
     /* ViewController -> Presenter */
 }
 
-protocol ___VARIABLE_productName: identifier___InteractorInputProtocol: class {
-
-    var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol? { get set }
-
+protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: class {
+    
+    var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?  { get set }
+    
     /* Presenter -> Interactor */
 }
 
-// MARK: - Interactor -> Presenter
+//MARK: - Interactor -> Presenter
 
-protocol ___VARIABLE_productName: identifier___InteractorOutputProtocol: class {
+protocol ___VARIABLE_productName:identifier___InteractorOutputProtocol: class {
 
     /* Interactor -> Presenter */
 }
 
-// MARK: - Presenter -> ViewController
+//MARK: - Presenter -> ViewController
 
-protocol ___VARIABLE_productName: identifier___ViewProtocol: class {
+protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
 
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol? { get set }
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
 
     /* Presenter -> ViewController */
 }
 
-// MARK: - Router
+//MARK: - Router
 
-protocol ___VARIABLE_productName: identifier___WireframeProtocol: class {
-
+protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
+    
 }
