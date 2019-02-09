@@ -1,6 +1,6 @@
 //
 //  Viper.swift
-//  
+//
 //
 //  Created by Bassem Abbas on 6/13/18.
 //
@@ -8,7 +8,7 @@
 import Foundation
 
 protocol PresenterLifeCycleProtocol {
-  
+
     optional func loadView
     optional func viewDidLoad
     optional func viewWillAppear
@@ -19,5 +19,5 @@ protocol PresenterLifeCycleProtocol {
 }
 
 protocol BasePresenterProtocol {
-    
+
 }
