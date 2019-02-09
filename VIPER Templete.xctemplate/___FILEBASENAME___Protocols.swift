@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - ViewController -> Presenter
 
-protocol ___VARIABLE_productName: identifier___PresenterProtocol: class {
+protocol ___VARIABLE_productName: identifier___PresenterProtocol: BasePresenterProtocol {
 
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? { get set }
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName: identifier___ViewController: UIViewController {
+class ___VARIABLE_productName: identifier___ViewController: BaseViewController {
 
     // MARK: - Public Variables
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
@@ -25,6 +25,7 @@ class ___VARIABLE_productName: identifier___ViewController: UIViewController {
 extension ___VARIABLE_productName: identifier___ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter?.viewDidLoad?()
     }
 }
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,23 +16,24 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OHd-GK-zEr" userLabel="Safe Area Container">
-                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                     <color key="backgroundColor" red="0.93055107770000001" green="0.93055107770000001" blue="0.93055107770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" priority="950" constant="20" id="0zY-0Z-LOW"/>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="bottom" secondItem="h4t-Pb-wpG" secondAttribute="bottom" priority="500" id="475-gq-xVs"/>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" priority="950" id="80K-V5-ml5"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="trailing" priority="950" id="Hw2-th-OAW"/>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" secondItem="h4t-Pb-wpG" secondAttribute="top" priority="500" id="Xxq-Tq-jre"/>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="trailing" secondItem="h4t-Pb-wpG" secondAttribute="trailing" priority="500" id="YTq-pN-04f"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="bottom" priority="950" id="sGg-dI-42O"/>
-                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" secondItem="h4t-Pb-wpG" secondAttribute="leading" priority="500" id="xDL-mF-guE"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="0zY-0Z-LOW"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="bottom" secondItem="h4t-Pb-wpG" secondAttribute="bottom" priority="999" id="475-gq-xVs"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="80K-V5-ml5"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="trailing" id="Hw2-th-OAW"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" secondItem="h4t-Pb-wpG" secondAttribute="top" priority="999" id="Xxq-Tq-jre"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="trailing" secondItem="h4t-Pb-wpG" secondAttribute="trailing" priority="999" id="YTq-pN-04f"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OHd-GK-zEr" secondAttribute="bottom" id="sGg-dI-42O"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" secondItem="h4t-Pb-wpG" secondAttribute="leading" priority="999" id="xDL-mF-guE"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="h4t-Pb-wpG"/>
         </view>

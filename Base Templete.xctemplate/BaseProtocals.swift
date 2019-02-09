@@ -1,23 +1,25 @@
 //
-//  Viper.swift
+//  BaseProtocals
+//  ___PROJECTNAME___
 //
-//
-//  Created by Bassem Abbas on 6/13/18.
+//  Created ___FULLUSERNAME___ on ___DATE___.
+//  Copyright © ___YEAR___ Ibtikar Technologies, Co. Ltd. All rights reserved.
 //
 
 import Foundation
 
-protocol PresenterLifeCycleProtocol {
-
-    optional func loadView
-    optional func viewDidLoad
-    optional func viewWillAppear
-    optional func viewDidAppear
-    optional func didReceiveMemoryWarning
-    optional func viewWillDisappear
-    optional func viewDidDisappear
+@objc
+protocol PresenterLifeCycleProtocol: class {
+    
+    @objc optional func loadView()
+    @objc optional func viewDidLoad()
+    @objc optional func viewWillAppear()
+    @objc optional func viewDidAppear()
+    @objc optional func didReceiveMemoryWarning()
+    @objc optional func viewWillDisappear()
+    @objc optional func viewDidDisappear()
 }
 
-protocol BasePresenterProtocol {
-
+protocol BasePresenterProtocol: PresenterLifeCycleProtocol {
+    
 }
