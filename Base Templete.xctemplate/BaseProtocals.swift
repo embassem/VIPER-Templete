@@ -9,7 +9,7 @@
 import Foundation
 
 @objc
-protocol PresenterLifeCycleProtocol: class {
+protocol PresenterLifeCycleProtocol {
     
     @objc optional func loadView()
     @objc optional func viewDidLoad()
@@ -20,6 +20,6 @@ protocol PresenterLifeCycleProtocol: class {
     @objc optional func viewDidDisappear()
 }
 
-protocol BasePresenterProtocol: PresenterLifeCycleProtocol {
+protocol BasePresenterProtocol: class, PresenterLifeCycleProtocol {
     
 }
