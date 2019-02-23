@@ -33,7 +33,7 @@ protocol ___VARIABLE_productName: identifier___InteractorOutputProtocol: class {
 
 // MARK: - Presenter -> ViewController
 
-protocol ___VARIABLE_productName: identifier___ViewProtocol: class {
+protocol ___VARIABLE_productName: identifier___ViewProtocol: BaseViewProtocal {
 
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol? { get set }
 
