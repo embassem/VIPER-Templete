@@ -11,7 +11,7 @@ avaliable options
 
 1- in Library Folder of machine  "avalible for all user"  "Prefared"
 ```
-/Library/Developer/Xcode/Templates/Project Templates/iOS/Application  
+/Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application 
 make the durectory to copy to it 
 
  sudo mkdir -p /Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application
@@ -19,7 +19,7 @@ make the durectory to copy to it
 
 2- in user Library Folder  "avaliable for this user only"
 ```
-~/Library/Developer/Xcode/Templates/Project Templates/iOS/Application
+~/Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application
 ```
 
 3- in xcode app 
