@@ -10,7 +10,12 @@ import UIKit
 
 class ___VARIABLE_productName: identifier___Interactor {
 
-    weak var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?
+    private weak var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?
+
+    // MARK: - Custom Setter
+    public func setPresenter (presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol) {
+        self.presenter = presenter
+    }
 }
 
 extension ___VARIABLE_productName: identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol {

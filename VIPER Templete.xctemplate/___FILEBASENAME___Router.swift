@@ -10,18 +10,22 @@ import UIKit
 
 class ___VARIABLE_productName: identifier___Router {
 
-    weak var viewController: UIViewController?
+    private weak var viewController: UIViewController?
 
+    private init () {}
+
+    private init(with viewController: UIViewController) {
+        self.viewController = viewController
+    }
     static func createModule() -> UIViewController {
         // Change to get view from storyboard if not using progammatic UI
         let view = ___VARIABLE_productName:identifier___ViewController(nibName: nil, bundle: nil)
         let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let router = ___VARIABLE_productName:identifier___Router()
+        let router = ___VARIABLE_productName:identifier___Router(with: view)
         let presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)
 
-        view.presenter = presenter
-        interactor.presenter = presenter
-        router.viewController = view
+        view.setPresenter (presenter: presenter)
+        interactor.setPresenter (presenter: presenter)
 
         return view
     }

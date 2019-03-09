@@ -10,11 +10,13 @@ import UIKit
 
 class ___VARIABLE_productName: identifier___Presenter: NSObject {
 
-    weak private var view: ___VARIABLE_productName:identifier___ViewProtocol?
-    var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
-    private let router: ___VARIABLE_productName:identifier___WireframeProtocol
+    private weak var view: ___VARIABLE_productName:identifier___ViewProtocol?
+    private weak var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
+    private weak var router: ___VARIABLE_productName:identifier___WireframeProtocol?
 
-    init(interface: ___VARIABLE_productName:identifier___ViewProtocol, interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?, router: ___VARIABLE_productName:identifier___WireframeProtocol) {
+    init(interface: ___VARIABLE_productName:identifier___ViewProtocol,
+         interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?,
+         router: ___VARIABLE_productName:identifier___WireframeProtocol) {
         self.view = interface
         self.interactor = interactor
         self.router = router

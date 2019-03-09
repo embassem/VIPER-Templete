@@ -11,7 +11,7 @@ import UIKit
 class ___VARIABLE_productName: identifier___ViewController: BaseViewController {
 
     // MARK: - Public Variables
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
+    private weak var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
 
     // MARK: - Private Variables
 
@@ -19,6 +19,10 @@ class ___VARIABLE_productName: identifier___ViewController: BaseViewController {
 
     // MARK: - IBOutlets
 
+    // MARK: - Custom Setter
+    public func setPresenter (presenter: ___VARIABLE_productName:identifier___PresenterProtocol) {
+        self.presenter = presenter
+    }
 }
 
 // MARK: - View Controller lifecycle
