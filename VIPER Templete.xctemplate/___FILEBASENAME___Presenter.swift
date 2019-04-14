@@ -6,13 +6,13 @@
 //  Copyright © ___YEAR___ Ibtikar Technologies, Co. Ltd. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class ___VARIABLE_productName: identifier___Presenter: NSObject {
 
     private weak var view: ___VARIABLE_productName:identifier___ViewProtocol?
-    private weak var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
-    private weak var router: ___VARIABLE_productName:identifier___WireframeProtocol?
+    private var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
+    private var router: ___VARIABLE_productName:identifier___WireframeProtocol?
 
     init(interface: ___VARIABLE_productName:identifier___ViewProtocol,
          interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?,

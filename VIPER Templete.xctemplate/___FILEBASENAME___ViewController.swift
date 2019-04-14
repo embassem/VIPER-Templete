@@ -11,7 +11,7 @@ import UIKit
 class ___VARIABLE_productName: identifier___ViewController: BaseViewController {
 
     // MARK: - Public Variables
-    private weak var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
+    private var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
 
     // MARK: - Private Variables
 

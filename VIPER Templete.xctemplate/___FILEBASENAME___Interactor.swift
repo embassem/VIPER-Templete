@@ -6,7 +6,7 @@
 //  Copyright © ___YEAR___ Ibtikar Technologies, Co. Ltd. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class ___VARIABLE_productName: identifier___Interactor {
 
