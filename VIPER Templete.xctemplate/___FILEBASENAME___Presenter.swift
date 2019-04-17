@@ -8,24 +8,24 @@
 
 import Foundation
 
-class ___VARIABLE_productName: identifier___Presenter: NSObject {
+class ___FILEBASENAME___Presenter: NSObject {
 
-    private weak var view: ___VARIABLE_productName:identifier___ViewProtocol?
-    private var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
-    private var router: ___VARIABLE_productName:identifier___WireframeProtocol?
+    private weak var view: ___FILEBASENAME___ViewProtocol?
+    private var interactor: ___FILEBASENAME___InteractorInputProtocol?
+    private var router: ___FILEBASENAME___WireframeProtocol?
 
-    init(interface: ___VARIABLE_productName:identifier___ViewProtocol,
-         interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?,
-         router: ___VARIABLE_productName:identifier___WireframeProtocol) {
+    init(interface: ___FILEBASENAME___ViewProtocol,
+         interactor: ___FILEBASENAME___InteractorInputProtocol?,
+         router: ___FILEBASENAME___WireframeProtocol) {
         self.view = interface
         self.interactor = interactor
         self.router = router
     }
 
 }
-extension ___VARIABLE_productName: identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
+extension ___FILEBASENAME___Presenter: ___FILEBASENAME___PresenterProtocol {
 
 }
-extension ___VARIABLE_productName: identifier___Presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol {
+extension ___FILEBASENAME___Presenter: ___FILEBASENAME___InteractorOutputProtocol {
 
 }

@@ -8,16 +8,16 @@
 
 import Foundation
 
-class ___VARIABLE_productName: identifier___Interactor {
+class ___FILEBASENAME___Interactor {
 
-    private weak var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?
+    private weak var presenter: ___FILEBASENAME___InteractorOutputProtocol?
 
     // MARK: - Custom Setter
-    public func setPresenter (presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol) {
+    public func setPresenter (presenter: ___FILEBASENAME___InteractorOutputProtocol) {
         self.presenter = presenter
     }
 }
 
-extension ___VARIABLE_productName: identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol {
+extension ___FILEBASENAME___Interactor: ___FILEBASENAME___InteractorInputProtocol {
 
 }

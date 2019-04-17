@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName: identifier___Router {
+class ___FILEBASENAME___Router {
 
     private weak var viewController: UIViewController?
 
@@ -19,10 +19,10 @@ class ___VARIABLE_productName: identifier___Router {
     }
     static func createModule() -> UIViewController {
         // Change to get view from storyboard if not using progammatic UI
-        let view = ___VARIABLE_productName:identifier___ViewController(nibName: nil, bundle: nil)
-        let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let router = ___VARIABLE_productName:identifier___Router(with: view)
-        let presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)
+        let view = ___FILEBASENAME___ViewController(nibName: nil, bundle: nil)
+        let interactor = ___FILEBASENAME___Interactor()
+        let router = ___FILEBASENAME___Router(with: view)
+        let presenter = ___FILEBASENAME___Presenter(interface: view, interactor: interactor, router: router)
 
         view.setPresenter (presenter: presenter)
         interactor.setPresenter (presenter: presenter)
@@ -31,6 +31,6 @@ class ___VARIABLE_productName: identifier___Router {
     }
 }
 
-extension ___VARIABLE_productName: identifier___Router: ___VARIABLE_productName:identifier___WireframeProtocol {
+extension ___FILEBASENAME___Router: ___FILEBASENAME___WireframeProtocol {
 
 }

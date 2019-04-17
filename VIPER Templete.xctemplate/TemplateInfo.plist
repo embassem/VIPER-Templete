@@ -2,50 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AllowedTypes</key>
-	<array>
-		<string>public.swift-source</string>
-	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<integer>2</integer>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
-	<key>DefaultCompletionName</key>
-	<string>SwiftViperModule</string>
-	<key>Description</key>
-	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
-	<key>Kind</key>
-	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___</string>
-	<key>SortOrder</key>
-	<integer>1</integer>
+	<key>Template Author</key>
+	<string>Ibtikar Technologies, Co. Ltd.</string>
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Description</key>
-			<string>Name of module that you need create</string>
-			<key>Default</key>
-			<string></string>
-			<key>Identifier</key>
-			<string>viperModuleName</string>
-			<key>Name</key>
-			<string>Module name</string>
-			<key>Required</key>
-			<string>YES</string>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_viperModuleName___</string>
 			<key>Identifier</key>
 			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
 			<key>Type</key>
-			<string>static</string>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 	</array>
-	<key>Template Author</key>
-	<string>Ibtikar Technologies, Co. Ltd.</string>
 </dict>
 </plist>
