@@ -6,26 +6,28 @@ Xcode Swift VIPER Templete
 
 
 ### Manual
-VIPER Templete.xctemplate should be copy to one of the  Application Folder
-avaliable options  
+VIPER Templete.xctemplate should be copy to one of the  Xcode template Folder
+available options  
 
-1- in Library Folder of machine  "avalible for all user"  "Prefared"
-```
+- option one  in Library Folder of machine  "available for all user"  "Preferred"
+
 /Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application 
-make the durectory to copy to it 
+make the directory to copy to it 
 
- sudo mkdir -p /Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application
- ```
+ `sudo mkdir -p /Library/Developer/Xcode/Templates/'Project Templates'/iOS/Application`
 
-2- in user Library Folder  "avaliable for this user only"
+` sudo cp -a . /Library/Developer/Xcode/Templates/'Project Templates'/iOS/Application `
+
+- option two 
+in user Library Folder  "available for this user only"
 ```
-~/Library/Developer/Xcode/Templates/Project\ Templates/iOS/Application
+~/Library/Developer/Xcode/Templates/'Project Templates'/iOS/Application
 ```
 
 3- in xcode app 
 Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
 ```
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project\ Templates/iOS/Application
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/'Project Templates'/iOS/Application
 ```
 
 
