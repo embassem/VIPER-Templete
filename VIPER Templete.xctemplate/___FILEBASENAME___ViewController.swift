@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ___FILEBASENAME___ViewController: BaseViewController {
+class ___VARIABLE_productName:identifier___ViewController: BaseViewController {
 
     // MARK: - Public Variables
-    private var presenter: ___FILEBASENAME___PresenterProtocol?
+    private var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
 
     // MARK: - Private Variables
 
@@ -20,13 +20,13 @@ class ___FILEBASENAME___ViewController: BaseViewController {
     // MARK: - IBOutlets
 
     // MARK: - Custom Setter
-    public func setPresenter (presenter: ___FILEBASENAME___PresenterProtocol) {
+    public func setPresenter (presenter: ___VARIABLE_productName:identifier___PresenterProtocol) {
         self.presenter = presenter
     }
 }
 
-// MARK: - View Controller lifecycle
-extension ___FILEBASENAME___ViewController {
+// MARK: - View controller lifecycle methods
+extension ___VARIABLE_productName:identifier___ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoad?()
@@ -34,21 +34,21 @@ extension ___FILEBASENAME___ViewController {
 }
 
 // MARK: - IBActions
-extension ___FILEBASENAME___ViewController {
+extension ___VARIABLE_productName:identifier___ViewController {
 
 }
 
 // MARK: - Selectors
-extension ___FILEBASENAME___ViewController {
+extension ___VARIABLE_productName:identifier___ViewController {
 
 }
 
 // MARK: - Private
-extension ___FILEBASENAME___ViewController {
+extension ___VARIABLE_productName:identifier___ViewController {
 
 }
 
 // MARK: - Protocal
-extension ___FILEBASENAME___ViewController: ___FILEBASENAME___ViewProtocol {
+extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___ViewProtocol {
 
 }

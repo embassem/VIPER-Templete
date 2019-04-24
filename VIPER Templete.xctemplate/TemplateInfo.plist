@@ -21,7 +21,7 @@
 		<string>public.swift-source</string>
 	</array>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___</string>
+	<string>___VARIABLE_productName:identifier___</string>
 	<key>Template Author</key>
 	<string>Ibtikar Technologies, Co. Ltd.</string>
 	<key>Options</key>
@@ -32,9 +32,9 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Class:</string>
+			<string>Module Name:</string>
 			<key>Description</key>
-			<string>The name of the class to create</string>
+			<string>The name of the Module to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
