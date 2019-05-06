@@ -18,15 +18,19 @@ protocol BaseViewProtocal: class, ViewIndicatorProtocal, ViewFetchable {
 protocol ViewIndicatorProtocal:class {
     
     // MARK: - Load Indicator
-    @objc optional func showLoadingIndicator()
-    @objc optional func hideLoadingIndicator()
+    @objc
+    optional func showLoadingIndicator()
+    @objc
+    optional func hideLoadingIndicator()
 }
 
 @objc
 protocol ViewFetchable:class {
     
     // MARK: - Load Data
-    @objc optional func fetchDataSuccess()
-    @objc optional func fetchDataFailed(with error: Error?)
+    @objc
+    optional func fetchDataSuccess()
+    @objc
+    optional func fetchDataFailed(with error: Error?)
     
 }
