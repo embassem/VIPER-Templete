@@ -9,19 +9,19 @@
 import Foundation
 
 @objc
-protocol BaseViewProtocal: class, ViewIndicatorProtocal, ViewFetchable {
+protocol BaseViewProtocal: class, ViewLoadable, ViewFetchable, ViewNotifiable {
     
 }
 
 
 @objc
-protocol ViewIndicatorProtocal:class {
+protocol ViewLoadable:class {
     
     // MARK: - Load Indicator
     @objc
-    optional func showLoadingIndicator()
+    optional func showLoading(allowNavigation:Bool)
     @objc
-    optional func hideLoadingIndicator()
+    optional func hideLoading()
 }
 
 @objc
@@ -29,8 +29,18 @@ protocol ViewFetchable:class {
     
     // MARK: - Load Data
     @objc
-    optional func fetchDataSuccess()
+    optional func fetchDataSuccess(date:Any)
     @objc
     optional func fetchDataFailed(with error: Error?)
     
+}
+
+@objc
+protocol ViewMessageable:class {
+    
+    // MARK: - Load Indicator
+    @objc
+    optional func showSuccessMessage(title: String?, message: String?)
+    @objc
+    optional func showErrorMessage(title: String?, message: String?)
 }

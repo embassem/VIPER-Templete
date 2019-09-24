@@ -18,6 +18,13 @@ class BaseViewController: UIViewController {
     
     // MARK: - IBOutlets
     
+}
+
+extension BaseViewController: BaseViewProtocal{
+    
+}
+
+extension UIViewController {
     /// use this if you add a ViewControllerScene to the Nib not a View
     static func loadViewControllerFromXib<Controller: BaseViewController>() -> Controller {
         
@@ -28,4 +35,3 @@ class BaseViewController: UIViewController {
         return controller
     }
 }
-
