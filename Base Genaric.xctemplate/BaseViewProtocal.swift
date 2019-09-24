@@ -9,10 +9,9 @@
 import Foundation
 
 @objc
-protocol BaseViewProtocal: class, ViewLoadable, ViewFetchable, ViewMessageable {
+protocol BaseViewProtocal: ViewLoadable, ViewFetchable, ViewMessageable {
     
 }
-
 
 @objc
 protocol ViewLoadable:class {
@@ -29,9 +28,9 @@ protocol ViewFetchable:class {
     
     // MARK: - Load Data
     @objc
-    optional func fetchDataSuccess(date:Any)
+    optional func loadDataSuccess(date:Any)
     @objc
-    optional func fetchDataFailed(with error: Error?)
+    optional func loadDataFailed(with error: Error?)
     
 }
 
